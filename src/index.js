@@ -18,30 +18,30 @@ hbs.registerPartials(partialsDir);
 app.get('/', (req, res) => {
     res.render('home', {
         title: 'Weather App',
-        name: 'Mario',
-        surname: 'Balukja',
+        name: 'Semi',
+        surname: 'Kushta',
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Page',
-        name: 'Mario',
-        surname: 'Balukja'
+        name: 'Semi',
+        surname: 'Kushta',
     });
 });
 
 app.get('/about/*' , (req, res) => {
     res.render('about', {
-        name: 'Mario',
-        surname: 'Balukja'
+        name: 'Semi',
+        surname: 'Kushta',
     });
 });
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        name: 'Mario',
-        surname: 'Balukja'
+        name: 'Semi',
+        surname: 'Kushta',
     });
 });
 
