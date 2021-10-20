@@ -41,7 +41,7 @@ app.get('/about/*' , (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         name: 'Semi',
-        surname: 'Kushta',
+        surname: 'Kushtas',
     });
 });
 
